@@ -1,0 +1,257 @@
+body{
+  border-width: 0px, 0px, 0px, 0px;
+border-style: solid;
+border-color: #E3E3E3;
+background: #F5F5F5;
+
+}
+.dropdown{
+  position: relative;
+  top: -5px;
+}
+.menu{
+  position: absolute;
+  left: -8px !important;
+  top: -20px !important;
+}
+.container-fluid{
+  gap: 100px;
+}
+
+.search{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  padding:10px ;
+
+}
+.input{
+  display: flex;
+  gap: 10px;
+
+
+}
+ .input3 input{
+  padding-left: 27px;
+} 
+
+.input2 {
+position: relative; 
+display: flex;
+align-items: center;
+}
+.input3 i{
+  position: absolute;
+  right: 189px;
+  top: 17px;
+}
+
+.zara{
+  line-height: 5px;
+  
+}
+.navbar .search{  
+  list-style:none ;
+  display: flex;
+  align-items: center;
+  
+}
+.navbar{
+  width:100%;
+  background: #FFFFFF;
+  padding: 0 !important; 
+}
+.sidebar {
+  margin: 0;
+  padding: 20px;
+  width: 200px;
+  position:sticky;
+  height: 100%;
+  overflow: auto;
+ border-width: 0px, 0px, 0px, 0px;
+border-style: solid;
+border-color: #E3E3E3;
+background: #FFFFFF;
+
+
+} 
+
+
+.sidebar2{
+  margin-top: 30px;
+} 
+.sidebar a {
+  display:block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.wallet{
+  background: #FFFFFF;
+  padding: 10px;
+}
+
+.wallet:hover{
+background-color: blue;
+}
+ .wallet2{
+  display: flex;
+  
+} 
+.wallet2 img{
+  height: 30px;
+  margin-top: 8px;
+}
+
+  .wallet1{
+  display: flex;
+  justify-content:space-between
+}
+  
+ .buy{
+  background:#FFFFFF;
+  padding:10px ;
+  margin: 10px;
+  position: relative;
+
+ }
+ .buy1{
+  display:flex;
+  justify-content: space-around;
+  margin: 20px;
+  
+ }
+ .buy1 h5{
+  color: #2752E7;
+  border-right: 1px solid #E3E3E3;
+  padding-right: 60px;
+ }
+
+ 
+ .buy3 input::-webkit-outer-spin-button,
+  .buy3 input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+  }
+   .buy3 {
+  margin: 10px;
+  display:flex;
+  list-style: none;
+  font-size:15px;
+  position: relative;
+  
+ }
+ .buy3 .a{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+
+
+ }
+
+ .buy4 input::-webkit-outer-spin-button,
+  .buy4 input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+  }
+
+  .buy4 {
+  
+    margin: 10px;
+    display: flex;
+    border:none;
+    list-style: none;
+    padding:10px;
+    height: 40px;
+    font-size:15px;
+    border: 2px solid #2752E7
+    
+   } 
+   .buy4 input{
+    border: none;
+
+   }
+   .buy4 img{
+    margin-right: 10px;
+    margin-bottom: 5px;
+   }
+  
+
+ 
+
+.buy5 button{
+  width: 250px;
+height:30px;
+background: #2752E7;
+color: #FFFFFF;
+margin: 10px;
+border: none;
+
+}
+
+.quick{
+  background:#FFFFFF;
+  padding:20px ;
+  border-radius:4px ;
+  
+
+ }
+ 
+
+.quick3 button{
+  width: 250px;
+height:30px;
+background: #2752E7;
+color: #FFFFFF;
+margin: 10px;
+border: none;
+}
+ .quick2 input::-webkit-outer-spin-button,
+  .quick2 input::-webkit-inner-spin-button{
+    -webkit-appearance:none;
+  }
+
+.trend1 h6{
+  color: #2752E7;
+}
+.table thead{
+border-bottom: 1px solid #E3E3E3;
+
+}
+.table tbody img{
+  margin-right: 10px;
+}
+.trend{
+  background: #FFFFFF;
+  padding:10px ;
+
+}
+.crypto1{
+  display: flex;
+  justify-content:space-between;
+}
+.crypto1 h6{
+  color:#2752E7;
+}
+.crypto2{
+  display: flex; 
+  column-gap:10px ;
+  
+}
+.crypto2 p{
+  font-size:10px;
+  
+}
+.crypto{
+  background: #FFFFFF;
+  padding:10px ;
+}
+.angle{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+@media only screen and (max-width:600px){
+  .zara h6 p{
+    font-size: 5px;
+    
+  }
+}
